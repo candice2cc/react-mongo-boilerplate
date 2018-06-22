@@ -1,0 +1,88 @@
+:global {
+  @import "variables";
+  @import "common";
+  @import "button";
+
+  //=== Modal
+  .modal-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: $modal-mask-bg;
+    height: 100%;
+    z-index: $zIndex-dialog-overlay;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: $zIndex-dialog;
+  }
+  .modal-content {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  // editor区域滚动条样式
+
+  .scroll-setter {
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      background-color: $scroll-bg;
+    }
+    &::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      background-color: $scroll-bar-bg;
+      border-radius: 6px;
+    }
+    /* 滚动槽 */
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
+    }
+    &::-webkit-scrollbar-corner {
+      background-color: $scroll-bg;
+
+    }
+  }
+
+  .progress {
+    -webkit-appearance: none;
+    &::-webkit-progress-bar {
+      background-color: $gray-color-light;
+      border-radius: 3px;
+    }
+    &::-webkit-progress-value {
+      background-image: linear-gradient(87deg,
+              #4facfe 0%,
+              #28cffe 44%,
+              #00f2fe 100%),
+      linear-gradient(
+                      #1ca7db,
+                      #1ca7db);
+      background-blend-mode: normal,
+      normal;
+      border-radius: 3px;
+    }
+  }
+
+  .mask-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

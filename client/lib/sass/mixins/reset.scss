@@ -1,0 +1,28 @@
+@mixin reset-btn() {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+@mixin reset-ul() {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+@mixin reset-li() {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+@mixin reset-p(){
+  margin: 0;
+}
+@mixin reset-h(){
+  margin: 0;
+  font-weight: normal;
+}
+@mixin reset-a(){
+  &:hover{
+    color:inherit;
+  }
+}

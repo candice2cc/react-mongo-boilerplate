@@ -1,0 +1,146 @@
+//=== Colors
+$white: #ffffff;
+$black: #000000;
+
+//=== Brand Colors
+$brand-primary: #247ddc;
+$brand-primary-hover: #3b93e3;
+$brand-primary-active: #1863d0;
+
+$brand-danger: #d66262;
+$brand-danger-hover: #de7a7a;
+$brand-danger-active: #c84a4a;
+
+$brand-success: #4eba47;
+$brand-success-hover: #5bc761;
+$brand-success-active: #2ea633;
+
+//=== Gray Colors
+$gray-color-light: #5e5e5e; //滚动条bar背景
+$gray-color: #535353; //header背景色
+$gray-color-dark: #424242; //滚动条背景，标题栏背景色
+$gray-color-darker: #333333; //主体大内容区块背景
+$gray-color-border: #383838; //标题栏边框、以及分割线
+
+$sider-bg:#494949;
+$scroll-bg:$gray-color-dark;
+$scroll-bar-bg:$gray-color-light;
+
+
+//=== 文字颜色 注：根据背景色情况考虑反转使用
+$text-color-dark: #333;
+$text-color: #666;
+$text-color-light: #999;
+
+//=== 字号/字体使用
+$font-family: "Hiragino Sans GB", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
+$font-size-sm: 12px;
+$font-size-md: $font-size-base;
+$font-size-lg: 16px;
+$font-size-xl: 20px;
+$font-size-xxl: 24px;
+
+//=== 按钮尺寸
+$btn-height: 40px;
+$btn-padding: 32px;
+$btn-lg-height: 48px;
+$btn-lg-padding: 64px;
+$btn-combo-height: 48px;
+$btn-combo-padding: 16px;
+
+//=== 圆角
+$border-radius: 20px;
+$border-radius-lg: 24px;
+$border-radius-sm: 12px;
+
+//=== 按钮颜色
+$btn-default-color: $white;
+$btn-default2-color: #999999;
+$btn-default-bg: transparent;
+$btn-default-border: $white;
+$btn-default2-border: #aaadb4;
+
+$btn-hover-default-color: $white;
+$btn-hover-default-bg: $brand-primary-hover;
+$btn-hover-default-border: $brand-primary-hover;
+
+$btn-active-default-color: $white;
+$btn-active-default-bg: $brand-primary-active;
+$btn-active-default-border: $brand-primary-active;
+
+$btn-primary-color: $white;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $brand-primary;
+
+$btn-hover-primary-color: $white;
+$btn-hover-primary-bg: $brand-primary-hover;
+$btn-hover-primary-border: $brand-primary-hover;
+
+$btn-active-primary-color: $white;
+$btn-active-primary-bg: $brand-primary-active;
+$btn-active-primary-border: $brand-primary-active;
+
+$btn-danger-color: $white;
+$btn-danger-bg: $brand-danger;
+$btn-danger-border: $brand-danger;
+
+$btn-hover-danger-color: $white;
+$btn-hover-danger-bg: $brand-danger-hover;
+$btn-hover-danger-border: $brand-danger-hover;
+
+$btn-active-danger-color: $white;
+$btn-active-danger-bg: $brand-danger-active;
+$btn-active-danger-border: $brand-danger-active;
+
+$btn-disable-color: #999;
+$btn-disable-bg: transparent;
+$btn-disable-border: #999;
+
+//=== shadow
+$box-shadow-light: 0 0 4px transparentize(#000, 0.1);
+$box-shadow: 0 0 8px transparentize(#000, 0.2);
+
+//=== Size
+$header-height: 88px;
+$header-tab-height: 40px;
+$sidebar-width-sm: 112px;
+$sidebar-width: 256px;
+$panel-header-height: 32px;
+
+$editor-width: 960px; //320*640
+$editor-height: 540px;
+$editor-margin: 16px;
+
+$editor-width-h:320px;
+$editor-height-h:568.88px;
+
+//=== Input
+$input-bg: #454545;
+$input-border: #535353;
+$input-border-radius: 12px;
+$input-padding: 8px;
+$input-height: 24px;
+
+//=== zIndex
+$zIndex-dropdown: 1001;
+$zIndex-dropdown-menu: 1000;
+$zIndex-dialog-overlay: 1200;
+$zIndex-dialog: 1500;
+$zIndex-layer: 2000;
+
+//=== Mask
+$mask-bg: rgba(0, 0, 0, 0.65);
+$modal-mask-bg: $mask-bg;
+
+
+
+
+
+
+
+
+
+
+
+
